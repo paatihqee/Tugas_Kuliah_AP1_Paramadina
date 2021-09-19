@@ -11,8 +11,8 @@ int main() {
 	cout<<"Halo Saya Fatih, Saya Akan Mengetahui Umur Anda"<<endl;
 	cout<<"Silahkan Masukkan Tahun Lahir Anda : ";
 	cin>>b;
-	cout<<"Umur Anda Anda Adalah : ";
-	cout<<2021-b<<endl;
+	cout<<"Umur Anda Sekarang Adalah : ";
+	cout<<"Kurang Lebih "<<2021-b<<" Tahun"<<endl;
 	
 	cin.get();
 	return 0;
