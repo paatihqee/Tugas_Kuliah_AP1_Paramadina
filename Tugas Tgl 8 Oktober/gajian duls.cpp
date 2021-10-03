@@ -27,7 +27,7 @@ int main() { // tugas no4: program menghitung gaji karyawan
 	
 	jam_lembur = lama_kerja_sebulan-150; // jika total jam kerja perbulannya > 150 jam, maka lebihnya dianggap lembur
 	
-	// agar ketika menampilkan jam lembur, tidak menampilkan hasil yang negatif(-)
+	// agar ketika menampilkan jam lembur, tidak menampilkan hasil yang negatif(-) saat jam kerja < 150 jam/bulan
 	if (jam_lembur >= 0){
 		cout << "Dengan Jam lembur Sebanyak " << jam_lembur << " jam/bulan" << endl;
 	} else {
